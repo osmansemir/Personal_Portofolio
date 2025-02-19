@@ -3,17 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+    <meta
+      name="description"
+      content="Full-Stack Developer & Designer passionate about building scalable, user-friendly websites and web applications. Explore my projects, skills, and experience. Let's connect and create something amazing!"
     />
-    <link rel="stylesheet" type="" href="./css/style.css" />
+
     <title>Osman's Portofolio</title>
+    <link rel="stylesheet" type="" href="./css/style.css" />
     <link
       rel="icon"
-      href="https://i.postimg.cc/k5XR5mGb/osman-arabic-logo.png"
+      href="https://i.postimg.cc/zXVZDm9B/osman-arabic-logo.png"
       type="image/png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +20,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
   </head>
 
@@ -30,10 +33,7 @@
       class="source-code-pro-normal d-flex flex-wrap justify-content-between align-items-center shadow border-bottom"
     >
       <div class="header-logo">
-        <a
-          href="/"
-          class="d-flex mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-        >
+        <a href="#" class="">
           <svg
             height="10mm"
             viewBox="0 0 100.26054 39.249287"
@@ -98,25 +98,288 @@
       </button>
     </header>
 
+    <!-- Hero Section -->
     <div
       id="hero"
-      class="container-fluid p-0 align-items-center justify-content-center d-flex flex-column"
+      class="container-fluid align-items-center justify-content-center d-flex flex-column bg-primary"
     >
-      <h1
-        class="text-dark text-center mx-auto source-code-pro-heavy hero-header"
-      >
+      <h1 class="text-light text-center mb-0 source-code-pro-heavy hero-header">
         Hey, I'm Osman Semir
       </h1>
-      <div class="hero-info text-center source-code-pro-normal">
+      <div class="text-white hero-info text-center source-code-pro-normal">
         A Goal-Driven Web Developer crafting and optimizing Websites and Web
         Applications to enhance product success and user experience
       </div>
-      <button type="button" class="hero-btn btn btn-lg btn-primary mt-5">
+      <button type="button" class="hero-btn btn btn-lg btn-dark my-3">
         <a href="#projects" class="nav-link link-light"> Projects </a>
       </button>
+      <div class="mouse mt-5"></div>
     </div>
 
     <!-- About Section  -->
-    <div id="about" class="container-fluid text-center"></div>
+    <div id="about" class="container-fluid bg-light">
+      <h2 class="display-3 about-heading text-lg-center">About me</h2>
+      <div class="title-hr mx-auto"></div>
+      <div class="row justify-content-center">
+        <div class="px-lg-5 pt-5 col-lg-6 mr-auto">
+          <h2 class="get-to-know display-6">Get to know me!</h2>
+          <div class="about-desc">
+            <p>
+              I'm a
+              <strong>Full-Stack Developer &amp Designer</strong> passionate
+              about crafting and managing
+              <strong>Websites and Web Applications</strong> with a strong focus
+              on both functionality and aesthetics. I specialize in building
+              <strong>scalable, responsive, and user-friendly</strong> digital
+              experiences that enhance usability and drive success. From
+              designing intuitive user interfaces to developing efficient
+              back-end solutions, I enjoy working on all aspects of web
+              development. Explore some of my work in the
+              <strong>Projects</strong> section.
+            </p>
+
+            <p>
+              I'm always eager to
+              <strong>learn, grow, and take on new challenges</strong>. Whether
+              it's building a product from the ground up or improving an
+              existing one, I strive to create impactful solutions. If you're
+              looking for a dedicated professional to collaborate with, I'd love
+              to connect!
+            </p>
+
+            <p>
+              Feel free to
+              <a href="mailto:osangor@yahoo.com">reach out via email</a> or
+              connect with me on
+              <a href="https://www.linkedin.com/in/osman-semir/" target="_blank"
+                >LinkedIn</a
+              >—let's discuss how we can work together!
+            </p>
+            <button type="button" class="btn btn-lg btn-dark my-3">
+              <a href="#contact" class="nav-link link-light"> Contact </a>
+            </button>
+          </div>
+        </div>
+        <div class="px-lg-5 pt-5 col-lg-6">
+          <h2 class="pb-2 skills-heading">My Skills</h2>
+          <div class="skills d-flex gap-2 flex-wrap">
+            <div class="badge text-bg-primary skill">HTML5</div>
+            <div class="badge text-bg-primary skill">CSS3</div>
+            <div class="badge text-bg-primary skill">Javascript</div>
+            <div class="badge text-bg-primary skill">Bootstrap</div>
+            <div class="badge text-bg-primary skill">Git</div>
+            <div class="badge text-bg-primary skill">Npm</div>
+            <div class="badge text-bg-primary skill">Adobe Photoshop</div>
+          </div>
+          <h1 class="pt-5 pb-2 skills-heading">My Soft Skills</h1>
+          <div class="skills d-flex gap-2 flex-wrap">
+            <div class="badge text-bg-primary skill">Communication</div>
+            <div class="badge text-bg-primary skill">
+              Interpersonal Intelligence
+            </div>
+            <div class="badge text-bg-primary skill">Teaching</div>
+            <div class="badge text-bg-primary skill">Leadership</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section-->
+    <div id="projects" class="container-fluid">
+      <h2 class="projects-heading text-lg-center display-3">My Projects</h2>
+      <div class="project row align-items-center p-0">
+        <img
+          src="./images/asmara.png"
+          alt="Asmara Restaurant screenshot"
+          class="img-fluid col-lg-6"
+        />
+        <div class="project-desc p-5 col-lg">
+          <h3 class="project-title">Asmara Restaurant</h3>
+          <p>
+            A sleek, mobile-friendly website showcasing Asmara Restaurant’s
+            menu, ambiance, and easy contact options—perfect for attracting more
+            customers!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <div id="testimonial" class="container-fluid bg-primary text-center">
+      <h2 class="display-3">Your Experience Matters</h2>
+      <div class="title-hr mx-auto bg-white my-3"></div>
+      <p class="w-75 mx-auto">
+        Your feedback helps me improve and continue delivering exceptional
+        results. Here are some experiences shared by those I’ve had the pleasure
+        of working with
+      </p>
+      <div id="slide" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="slide"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="slide"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="slide"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="slide"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="p-3 w-100">
+              <img src="./images/avatar.png" alt="" class="" />
+              <h5>Sarah M., Small Business Owner</h5>
+              <p class="w-50 mx-auto mb-4">
+                "Osman transformed my outdated website into a modern,
+                user-friendly platform that perfectly represents my brand. His
+                attention to detail and dedication to delivering high-quality
+                work exceeded my expectations!"
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-3 w-100">
+              <img src="./images/avatar.png" alt="" class="" />
+
+              <h5>James K., Startup Founder</h5>
+              <p class="w-50 mx-auto mb-4">
+                "I needed a sleek, visually appealing website for my startup,
+                and Osman delivered beyond what I imagined! The design is not
+                only stunning but also intuitive, making it easier for users to
+                navigate. I highly recommend his expertise!"
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-3 w-100">
+              <img src="./images/avatar.png" alt="" class="" />
+
+              <h5>David L., Business Consultant</h5>
+              <p class="w-50 mx-auto mb-4">
+                "Osman took my vision for a professional website and turned it
+                into reality. He was patient, detail-oriented, and made sure
+                everything was optimized for performance and user experience.
+                The final result was better than I could have imagined!"
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-3 w-100">
+              <img src="./images/avatar.png" alt="" class="" />
+
+              <h5>Michael T., Photographer &amp Freelancer</h5>
+              <p class="w-50 mx-auto mb-4">
+                "I wanted a portfolio website that truly showcased my work, and
+                Osman absolutely nailed it! The site is elegant, responsive, and
+                easy to navigate. Thanks to him, my online presence looks more
+                professional than ever!"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="slide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="slide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div
+      id="contact"
+      class="bg-dark container-fluid align-items-center adjust-content-center"
+    >
+      <div class="contact-card p-4 row w-75 mx-auto bg-white">
+        <h2 class="display-3 text-center">Contact</h2>
+        <div class="contact-info border-end-dark col-5 p-3">
+          <h2 class="contact-title mb-4">Lets grab a cup of Coffee</h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+          dolorum cupiditate non dolores, autem qui quidem sed? Placeat vitae
+          harum eaque dolore ut molestias, architecto vero ducimus expedita,
+          repellendus minima.
+        </div>
+        <div class="vr"></div>
+        <form action="" class="col-6 contact-form p-3">
+          <label for="" class="form-label">Name:</label>
+          <input type="text" name="" value="" class="form-control" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+          </a>
+          <span class="mb- mb-md-0 text-body-secondary"
+            >Osman Semir © 2025
+          </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi-github"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi-linkedin"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

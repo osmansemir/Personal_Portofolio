@@ -15,7 +15,6 @@
     "no-empty-source": true,
     "no-invalid-position-at-import-rule": true,
     "property-no-unknown": true,
-    "unit-allowed-list": ["em", "rem", "px", "%", "vh", "vw"],
     "font-family-no-missing-generic-family-keyword": true
   }
 }
