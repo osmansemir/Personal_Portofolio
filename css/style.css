@@ -11860,7 +11860,7 @@ textarea.form-control-lg {
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
 }
 
 body {
@@ -11943,8 +11943,8 @@ header {
 }
 
 #hero {
-  max-height: 100rem;
-  min-height: 70rem;
+  max-height: 100vh;
+  min-height: 100vh;
   background-image: url("../images/connected-25.png");
 }
 
@@ -12002,13 +12002,27 @@ header {
   }
 }
 .title-hr {
-  width: 7rem;
-  height: 0.8rem;
+  width: 3rem;
+  height: 0.5rem;
   border-radius: 2rem;
 }
 
+.title-desc {
+  font-size: 1.8rem;
+  margin-bottom: 10rem;
+  width: 50%;
+  color: #333;
+}
+
+.section-title {
+  font-weight: 500;
+  margin-bottom: 3rem;
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
 #about .about-desc {
-  /* font-size: 1.6rem; */
+  font-size: 1.6rem;
 }
 #about .skills .skill {
   font-size: 1.6rem;
@@ -12017,25 +12031,46 @@ header {
 
 #testimonial {
   min-height: 20rem;
-  max-height: 27rem;
-  color: white;
-}
-#testimonial .client-thumbnail {
-  max-width: 10rem;
-}
-#testimonial button {
   color: black;
 }
-#testimonial .carousel-item h5, #testimonial .carousel-item .h5 {
+#testimonial .carousel {
+  color: #222831;
+}
+#testimonial .client-thumbnail {
+  max-width: 15%;
+}
+#testimonial .carousel-content {
+  max-width: 80%;
+}
+#testimonial .client-name {
   font-size: 1.4rem;
-}
-#testimonial .carousel-item p {
-  font-size: 1.5rem;
-}
-#testimonial .carousel-item img {
-  width: 8%;
+  font-weight: 700;
 }
 
+@media (min-width: 768px) {
+  #testimonial p {
+    /* font-size: 1rem; */
+  }
+  #testimonial .client-thumbnail {
+    max-width: 15%;
+    height: auto;
+  }
+  #testimonial .carousel-content {
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  #testimonial p {
+    /* font-size: 1rem; */
+  }
+  #testimonial .client-thumbnail {
+    max-width: 18%;
+    height: auto;
+  }
+  #testimonial .carousal-content {
+    max-width: 40%;
+  }
+}
 #contact .contact-card {
   min-height: 50rem;
   border-radius: 2rem;

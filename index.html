@@ -74,19 +74,16 @@
       <div class="header-nav-full">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a href="#" class="nav-link link-dark p-0">Home</a>
+            <a href="#hero" class="nav-link link-dark p-0">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-dark p-0">About</a>
+            <a href="#about" class="nav-link link-dark p-0">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-dark p-0">Skills</a>
+            <a href="#projects" class="nav-link link-dark p-0">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-dark p-0">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-dark p-0">Contact</a>
+            <a href="#contact" class="nav-link link-dark p-0">Contact</a>
           </li>
         </ul>
       </div>
@@ -118,42 +115,45 @@
 
     <!-- About Section  -->
     <div id="about" class="container-fluid bg-light">
-      <h2 class="display-3 about-heading text-lg-center">About me</h2>
-      <div class="title-hr mx-auto"></div>
+      "
+      <h2 class="section-title text-center">About me</h2>
+      <div class="title-hr mx-auto bg-dark my-2"></div>
+      <p class="title-desc mx-auto text-center">
+        A glimpse into my journey, the technologies I use, and the skills that
+        shape my work
+      </p>
       <div class="row justify-content-center">
         <div class="px-lg-5 pt-5 col-lg-6 mr-auto">
-          <h2 class="get-to-know display-6">Get to know me!</h2>
+          <h2 class="get-to-know display-1">Get to know me!</h2>
           <div class="about-desc">
             <p>
               I'm a
-              <strong>Full-Stack Developer &amp Designer</strong> passionate
-              about crafting and managing
-              <strong>Websites and Web Applications</strong> with a strong focus
-              on both functionality and aesthetics. I specialize in building
+              <strong>Full-Stack Developer &amp; Designer</strong> passionate
+              about building
               <strong>scalable, responsive, and user-friendly</strong> digital
-              experiences that enhance usability and drive success. From
-              designing intuitive user interfaces to developing efficient
-              back-end solutions, I enjoy working on all aspects of web
-              development. Explore some of my work in the
-              <strong>Projects</strong> section.
+              experiences. I focus on both functionality and aesthetics,
+              ensuring every website and application I create is intuitive,
+              efficient, and visually compelling. From designing sleek user
+              interfaces to developing powerful back-end solutions, I enjoy
+              bringing ideas to life through code.
             </p>
-
             <p>
               I'm always eager to
-              <strong>learn, grow, and take on new challenges</strong>. Whether
-              it's building a product from the ground up or improving an
-              existing one, I strive to create impactful solutions. If you're
-              looking for a dedicated professional to collaborate with, I'd love
-              to connect!
+              <strong>learn, grow, and tackle new challenges</strong>—whether
+              it’s creating something from scratch or optimizing an existing
+              product. If you're looking for a
+              <strong>dedicated developer and designer</strong>, let’s connect!
             </p>
-
             <p>
-              Feel free to
-              <a href="mailto:osangor@yahoo.com">reach out via email</a> or
-              connect with me on
-              <a href="https://www.linkedin.com/in/osman-semir/" target="_blank"
+              <strong>Feel free to reach out via</strong>
+              <a href="mailto:osmanshek@gmail.com">email</a> or
+              <a
+                href="https://www.linkedin.com/in/osman-semir"
+                target="_blank"
+                rel="noopener noreferrer"
                 >LinkedIn</a
-              >—let's discuss how we can work together!
+              >
+              —I'd love to discuss how we can work together!
             </p>
             <button type="button" class="btn btn-lg btn-dark my-3">
               <a href="#contact" class="nav-link link-light"> Contact </a>
@@ -186,16 +186,30 @@
 
     <!-- Projects Section-->
     <div id="projects" class="container-fluid">
-      <h2 class="projects-heading text-lg-center display-3">My Projects</h2>
+      <h2 class="section-title text-center">My Projects</h2>
+      <div class="title-hr mx-auto bg-dark my-2"></div>
+      <p class="title-desc mx-auto text-center">
+        A collection of my latest projects, where I apply my skills in front-end
+        development, design, and problem-solving. Explore my work below!
+      </p>
       <div class="project row align-items-center p-0">
-        <img
-          src="./images/asmara.png"
-          alt="Asmara Restaurant screenshot"
-          class="img-fluid col-lg-6"
-        />
-        <div class="project-desc p-5 col-lg">
-          <h3 class="project-title">Asmara Restaurant</h3>
-          <p>
+        <div class="col-lg-6 text-end">
+          <img
+            src="./images/asmara.png"
+            alt="Asmara Restaurant screenshot"
+            class="img-fluid w-75 mx-auto"
+          />
+        </div>
+
+        <div class="project-desc p- col-lg-6 justify-content-center">
+          <a
+            href="https://osmansemir.github.io/Asmara_Restaurant/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-dark"
+            ><h3 class="project-title">Asmara Restaurant</h3></a
+          >
+          <p class="w-75">
             A sleek, mobile-friendly website showcasing Asmara Restaurant’s
             menu, ambiance, and easy contact options—perfect for attracting more
             customers!
@@ -205,19 +219,28 @@
     </div>
 
     <!-- Testimonial Section -->
-    <div id="testimonial" class="container-fluid bg-primary text-center">
-      <h2 class="display-3">Your Experience Matters</h2>
-      <div class="title-hr mx-auto bg-white my-3"></div>
-      <p class="w-75 mx-auto">
+    <div
+      id="testimonial"
+      class="container-fluid bg-primary text-center"
+      data-bs-theme="dark"
+    >
+      <h2 class="section-title">Your Experience Matters</h2>
+      <div class="title-hr mx-auto bg-white my-2"></div>
+      <p class="title-desc mx-auto">
         Your feedback helps me improve and continue delivering exceptional
         results. Here are some experiences shared by those I’ve had the pleasure
-        of working with
+        of working with.
       </p>
-      <div id="slide" class="carousel slide">
+
+      <div
+        id="testimonialSlider"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
-            data-bs-target="slide"
+            data-bs-target="#testimonialSlider"
             data-bs-slide-to="0"
             class="active"
             aria-current="true"
@@ -225,19 +248,19 @@
           ></button>
           <button
             type="button"
-            data-bs-target="slide"
+            data-bs-target="#testimonialSlider"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
-            data-bs-target="slide"
+            data-bs-target="#testimonialSlider"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
           <button
             type="button"
-            data-bs-target="slide"
+            data-bs-target="#testimonialSlider"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
@@ -245,54 +268,103 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="p-3 w-100">
-              <img src="./images/avatar.png" alt="" class="" />
-              <h5>Sarah M., Small Business Owner</h5>
-              <p class="w-50 mx-auto mb-4">
+            <div class="carousel-content p-5 bg-light mx-auto rounded-3">
+              <img
+                src="./images/avatar.png"
+                alt=""
+                class="mb-1 client-thumbnail"
+              />
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="px-2 mx-auto mb-2">
                 "Osman transformed my outdated website into a modern,
                 user-friendly platform that perfectly represents my brand. His
                 attention to detail and dedication to delivering high-quality
                 work exceeded my expectations!"
               </p>
+              <div class="client-name mb-4">
+                &mdash; Aman Abdulhafiz, Small Business Owner
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="p-3 w-100">
-              <img src="./images/avatar.png" alt="" class="" />
-
-              <h5>James K., Startup Founder</h5>
-              <p class="w-50 mx-auto mb-4">
-                "I needed a sleek, visually appealing website for my startup,
-                and Osman delivered beyond what I imagined! The design is not
-                only stunning but also intuitive, making it easier for users to
-                navigate. I highly recommend his expertise!"
+            <div class="carousel-content p-5 bg-light mx-auto rounded-3">
+              <img
+                src="./images/avatar.png"
+                alt=""
+                class="mb-1 client-thumbnail"
+              />
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="px-2 mx-auto mb-2">
+                "Osman transformed my outdated website into a modern,
+                user-friendly platform that perfectly represents my brand. His
+                attention to detail and dedication to delivering high-quality
+                work exceeded my expectations!"
               </p>
+              <div class="client-name mb-4">
+                &mdash; Aman Abdulhafiz, Small Business Owner
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="p-3 w-100">
-              <img src="./images/avatar.png" alt="" class="" />
-
-              <h5>David L., Business Consultant</h5>
-              <p class="w-50 mx-auto mb-4">
-                "Osman took my vision for a professional website and turned it
-                into reality. He was patient, detail-oriented, and made sure
-                everything was optimized for performance and user experience.
-                The final result was better than I could have imagined!"
+            <div class="carousel-content p-5 bg-light mx-auto rounded-3">
+              <img
+                src="./images/avatar.png"
+                alt=""
+                class="mb-1 client-thumbnail"
+              />
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="px-2 mx-auto mb-2">
+                "Osman transformed my outdated website into a modern,
+                user-friendly platform that perfectly represents my brand. His
+                attention to detail and dedication to delivering high-quality
+                work exceeded my expectations!"
               </p>
+              <div class="client-name mb-4">
+                &mdash; Aman Abdulhafiz, Small Business Owner
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="p-3 w-100">
-              <img src="./images/avatar.png" alt="" class="" />
-
-              <h5>Michael T., Photographer &amp Freelancer</h5>
-              <p class="w-50 mx-auto mb-4">
-                "I wanted a portfolio website that truly showcased my work, and
-                Osman absolutely nailed it! The site is elegant, responsive, and
-                easy to navigate. Thanks to him, my online presence looks more
-                professional than ever!"
+            <div class="carousel-content p-5 bg-light mx-auto rounded-3">
+              <img
+                src="./images/avatar.png"
+                alt=""
+                class="mb-1 client-thumbnail"
+              />
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="px-2 mx-auto mb-2">
+                "Osman transformed my outdated website into a modern,
+                user-friendly platform that perfectly represents my brand. His
+                attention to detail and dedication to delivering high-quality
+                work exceeded my expectations!"
               </p>
+              <div class="client-name mb-4">
+                &mdash; Aman Abdulhafiz, Small Business Owner
+              </div>
             </div>
           </div>
         </div>
@@ -300,7 +372,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="slide"
+          data-bs-target="#testimonialSlider"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -309,7 +381,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="slide"
+          data-bs-target="#testimonialSlider"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -324,7 +396,7 @@
       class="bg-dark container-fluid align-items-center adjust-content-center"
     >
       <div class="contact-card p-4 row w-75 mx-auto bg-white">
-        <h2 class="display-3 text-center">Contact</h2>
+        <h2 class="section-title text-center">Contact</h2>
         <div class="contact-info border-end-dark col-5 p-3">
           <h2 class="contact-title mb-4">Lets grab a cup of Coffee</h2>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
@@ -358,17 +430,32 @@
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a class="text-body-secondary" href="#">
+            <a
+              class="text-body-secondary"
+              href="https://github.com/osmansemir"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="bi-github"></i>
             </a>
           </li>
           <li class="ms-3">
-            <a class="text-body-secondary" href="#">
+            <a
+              class="text-body-secondary"
+              href="https://www.linkedin.com/in/osman-semir/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="bi-linkedin"></i
             ></a>
           </li>
           <li class="ms-3">
-            <a class="text-body-secondary" href="#">
+            <a
+              class="text-body-secondary"
+              href="https://instagram.com/osmansemir"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="bi-instagram"></i>
             </a>
           </li>

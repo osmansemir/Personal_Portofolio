@@ -5,7 +5,6 @@ $light: #EEEEEE;
 
 $spacer: 2rem;
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .source-code-pro-heavy {
@@ -24,7 +23,7 @@ $spacer: 2rem;
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
 }
 
 body {
@@ -112,8 +111,8 @@ header {
 }
 
 #hero {
-  max-height: 100rem;
-  min-height: 70rem;
+  max-height: 100vh;
+  min-height: 100vh;
 
   background-image: url("../images/connected-25.png");
 
@@ -176,16 +175,31 @@ header {
 }
 
 .title-hr {
-  width: 7rem;
-  height: 0.8rem;
+  width: 3rem;
+  height: 0.5rem;
   border-radius: 2rem;
+}
+
+.title-desc {
+  font-size: 1.8rem;
+  margin-bottom: 10rem;
+  width: 50%;
+  color: #333;
+
+}
+
+.section-title {
+  font-weight: 500;
+  margin-bottom: 3rem;
+  font-size: 6rem;
+  line-height: 6rem;
 }
 
 #about {
 
 
   .about-desc {
-    /* font-size: 1.6rem; */
+    font-size: 1.6rem;
   }
 
   .skills {
@@ -200,34 +214,65 @@ header {
 
 #testimonial {
   min-height: 20rem;
-  max-height: 27rem;
-  color: white;
+  color: black;
 
-  >p {}
+  .carousel {
+    color: $dark;
+  }
 
   .client-thumbnail {
-    max-width: 10rem;
+    max-width: 15%;
   }
 
-  button {
-    color: black;
+  .carousel-content {
+    max-width: 80%;
   }
 
-  .carousel-item {
-    h5 {
-      font-size: 1.4rem;
-    }
 
+
+
+
+
+  .client-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #testimonial {
     p {
-      font-size: 1.5rem;
-
+      /* font-size: 1rem; */
     }
 
-    img {
-      width: 8%;
+    .client-thumbnail {
+      max-width: 15%;
+      height: auto;
+    }
+
+    .carousel-content {
+      max-width: 50%;
     }
   }
 }
+
+@include media-breakpoint-up(lg) {
+  #testimonial {
+    p {
+      /* font-size: 1rem; */
+    }
+
+    .client-thumbnail {
+      max-width: 18%;
+      height: auto;
+    }
+
+    .carousal-content {
+      max-width: 40%;
+    }
+  }
+}
+
 
 #contact {
   .contact-card {
